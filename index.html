@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>ELITE TRAVEL MANGEMENT</title>
+     <style>
+          .form1 {
+               background-color: #74B14E;
+               width: 833px;
+               padding-top: 5px;
+               margin-left: 30px;
+          }
+
+          .table1{
+               width: 800px;
+               margin-left: 20px;
+               border: 2px solid #fff;
+               border-radius: 3px;
+          }
+
+          .formHeading {
+               background-color: #fff;
+               color: red;
+               width: 94%;
+               margin-left: 24px;
+               margin-top: 20px;
+               text-align: center;
+               border-radius: 5px;
+          }
+
+          td {
+               border: 1px solid #fff;
+               border-radius: 5px;
+               padding: 1%;
+               width: 100px;
+          }
+           .td1{
+               background-color: #6698FF;
+           }
+          .info {
+               color: #fff;
+          }
+
+          .category {
+               background-color: #6698FF;
+               color: #7c1934;
+               font-weight: 700;
+
+          }
+
+          #click {
+               color: #7c1934;
+               font-weight: 800;
+          }
+
+          .form-btn {
+               background-color: #fff;
+               color: #7c1934;
+               font-weight: 800;
+               margin-left: 20px;
+               margin-top: 30px;
+               margin-bottom: 20px;
+               border-radius: 4px;
+          }
+
+          .form-btn:hover {
+               background-color: #7c1934;
+               color: #fff;
+          }
+
+          input[ type="select"],
+          input[ type="text"],
+          input[ type="tel"],
+          input[ type="email"],
+          input[ type="date"] {
+               width: 100%;
+          }
+
+          select {
+               width: 98%;
+          }
+          .table-wrapper {
+        margin: auto;
+      }
+
+     </style>
+</head>
+
+<body>
+     <table class="table-wrapper">
+          <tbody>
+               <tr>
+                    <td><img src="earth.png" alt="earth " /></td>
+                    <td>
+                         <form action="" class="form1">
+                              <h2 class="formHeading">ELITE TRAVEL MANGEMENT</h2>
+                              <table class="table1">
+
+                                   <tr>
+                                        <td  class="td1">
+                                             <a href="#" class="info"> Travel info</a>
+                                        </td>
+                                        <td class="td1">
+                                             <a href="#" class="info">Personal info</a>
+                                        </td>
+                                        <td class="td1">
+                                             <a href="#" class="info">Activities Preferences</a>
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                        <td colspan="3" class="category" class="td1">Travel Information</td>
+
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">
+                                             <label for="">Select your travel destination:</label><br>
+                                             <select name="" id="">
+                                                  <option value="">Select..</option>
+                                             </select>
+                                        </td>
+                                        <td class="td1">
+                                             <label for="">
+                                                  Date of departure:
+                                             </label><br>
+                                             <input type="date">
+                                        </td>
+                                        <td class="td1">
+                                             <label for="">Date of arrival:</label><br>
+                                             <input type="date">
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">No of kids</td>
+                                        <td class="td1">No of teens</td>
+                                        <td class="td1">No of adults</td>
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">Visa Assistance</td>
+                                        <td class="td1">
+                                             <input type="radio" id="y" name="visa">
+                                             <label for="y">Yes</label>
+                                        </td>
+
+                                        <td class="td1">
+                                             <input type="radio" id="n" name="visa">
+                                             <label for="n">No</label>
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                        <td colspan="3" class="category" class="td1">Personal Information</td>
+
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">Customer Name</td>
+                                        <td colspan="2">
+                                             <input type="text" placeholder="Enter the customer name">
+                                        </td>
+
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">Phone Number</td>
+                                        <td colspan="2" class="td1">
+                                             <input type="tel" placeholder="Enter the phone number">
+                                        </td>
+
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">Email ID</td>
+                                        <td colspan="2" class="td1">
+                                             <input type="email" placeholder="Enter the email id">
+                                        </td>
+
+                                   </tr>
+                                   <tr>
+                                   <tr>
+                                        <td colspan="3" class="category" class="td1">Activities Preferences</td>
+
+                                   </tr>
+               </tr>
+               <tr>
+                    <td class="td1">
+                         <input type="checkbox" id="m" name="activities">
+                         <label for="m">Museums & Preferences</label>
+                    </td>
+                    <td class="td1"> <input type="checkbox" id="c" name="activities">
+                         <label for="c">Culture</label>
+                    </td>
+                    <td class="td1"> <input type="checkbox" id="b" name="activities">
+                         <label for="b">Beaches</label>
+                    </td>
+               </tr>
+               <tr>
+                    <td class="td1">
+                         <input type="checkbox" id="s" name="activities">
+                         <label for="s">Shopping</label>
+                    </td>
+                    <td class="td1"> <input type="checkbox" id="w" name="activities">
+                         <label for="w">Wildlife</label>
+                    </td>
+                    <td class="td1"> <input type="checkbox" id="r" name="activities">
+                         <label for="r">Beaches</label>
+                    </td>
+               </tr>
+               <tr>
+                    <td colspan="3" id="click" class="td1">
+                         <a>** Click here to unlock exclusive offers</a>
+                    </td>
+               </tr>
+     </table>
+     <input type="button" class="form-btn" value="BUILD PACKAGE" />
+
+     </tr>
+
+     </table>
+     </form>
+
+</body>
+
+</html>
